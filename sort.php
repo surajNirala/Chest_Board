@@ -8,4 +8,9 @@ $inputArray = array(8, 2, 7, 4, 5);
         }
     }
 print_r($outArray);
+
+
+
+//SELECT address, count(id) as cnt FROM list
+//GROUP BY address HAVING cnt > 1 
 ?>
