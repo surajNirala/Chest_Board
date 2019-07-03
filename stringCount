@@ -5,4 +5,17 @@ $arr = array('test');
 for($i=0;$arr[0][$i];$i++);
 echo $i; // string calculate
 
+// 12345 calulate
+$b = 0;
+$a = 12345;
+while($a!=0){
+$c = $a%10;
+$b+=$c;
+$a= $a/10;
+}
+
+ echo $b;
+
+
+
 ?>
