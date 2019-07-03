@@ -1,0 +1,8 @@
+<?php
+
+$arr = array('test');
+//echo $arr[0][1];
+for($i=0;$arr[0][$i];$i++);
+echo $i; // string calculate
+
+?>
