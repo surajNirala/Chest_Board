@@ -1,0 +1,31 @@
+<?php
+
+function arrayMerge(array $arrays) {
+    $mergeArray = [];
+
+    foreach ($arrays as  $key => $array) {
+        foreach($array as $finalArray) {
+            $mergeArray[] = $finalArray;
+        }
+    }
+
+   return $mergeArray;
+}
+
+
+$array1 = [
+    'Laravel', 'Codeigniter', 'Zend'
+];
+
+$array2 = [
+    'Node js', 'Vue js', 'Angular js'
+];
+
+$array3 = [
+    'Python', 'Django', 'Ruby'
+];
+
+
+print_r(arrayMerge([$array1, $array2, $array3]));
+
+?>
